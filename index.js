@@ -22,3 +22,19 @@ const questions = [
     }
 ];
 
+inquirer.prompt(questions).then(answers => {
+    let shape;
+    switch (answers.shape) {
+        case 'Triangle':
+            shape = new Triangle();
+            break;
+        case 'Circle':
+            shape = new Circle();
+            break;
+        case 'Square':
+            shape = new Square();
+            break;
+    }
+    shape.setColor(answers.shapeColor);
+});
+
