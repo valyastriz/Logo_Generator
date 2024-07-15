@@ -70,5 +70,5 @@ This will execute the tests defined for the shape classes to ensure they are fun
 
 If you have any questions about the project, please feel free to reach out:
 
-- **GitHub:** [Your GitHub Username](https://github.com/valyastriz)
-- **Email:** [Your Email](mailto:your-valyastriz@gmail.com)
+- **GitHub:** [valyastriz](https://github.com/valyastriz)
+- **Email:** [valyastriz@gmail.com](mailto:your-valyastriz@gmail.com)
