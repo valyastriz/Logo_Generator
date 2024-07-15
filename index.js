@@ -55,10 +55,7 @@ inquirer.prompt(questions).then(answers => {
 </svg>`;
 
 
-    const filePath = path.join(__dirname, 'examples', 'logo.svg');
-
-
-    fs.writeFile(filePath, svg, (err) => {
+    fs.writeFile('logo.svg', svg, (err) => {
         if (err) {
             console.error('Error writing to file', err);
         } else {
